@@ -1,7 +1,7 @@
 [workspace]
 members = [
-"add_two_numbers",
-"two_sum"
+"add_two_numbers", "intersection_of_two_arrays", # Medium difficulty
+"two_sum", # Easy difficulty
 ]	
 
 resolver = "2"
