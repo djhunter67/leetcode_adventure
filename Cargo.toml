@@ -1,6 +1,22 @@
 [workspace]
 members = [
-	"two_sum"
+"add_two_numbers",
+"two_sum"
 ]	
 
 resolver = "2"
+
+[workspace.lints.rust]
+unsafe_code = "forbid"
+
+[workspace.lints.clippy]
+enum_glob_use = "deny"
+pedantic = "deny"
+nursery = "deny"
+
+[profile.release]
+strip = true
+opt-level = "z"
+lto = true
+codegen-units = 1
+panic = "abort"
