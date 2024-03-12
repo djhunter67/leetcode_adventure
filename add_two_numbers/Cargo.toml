@@ -8,7 +8,4 @@ edition = "2021"
 [lints]
 workspace = true
 
-[clippy]
-workspace = true
-
 [dependencies]

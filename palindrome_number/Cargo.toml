@@ -1,5 +1,5 @@
 [package]
-name = "intersection_of_two_arrays"
+name = "palindrome_number"
 version = "0.1.0"
 edition = "2021"
 
@@ -9,4 +9,3 @@ edition = "2021"
 
 [lints]
 workspace = true
-
