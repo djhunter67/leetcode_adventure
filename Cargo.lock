@@ -15,5 +15,9 @@ name = "palindrome_number"
 version = "0.1.0"
 
 [[package]]
+name = "roman_to_integer"
+version = "0.1.0"
+
+[[package]]
 name = "two_sum"
 version = "0.1.0"
